@@ -554,6 +554,17 @@
 				</textarea>
 			</li>
 		</ul>
+    
+    <ul>
+      <li><strong>获取数组中最大、小值</strong></li>
+      <li>
+         <textarea>
+            var arr = [1,2,3,5];
+            console.log(Math.max.apply(null, a));//最大值
+            console.log(Math.min.apply(null, a));//最小值
+         </textarea>
+      </li>
+    </ul>
 
 		<ul>
 			<li><strong>数组去重</strong></li>
